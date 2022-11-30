@@ -22,3 +22,5 @@ The major features that are extracted are : (chroma_stft, chroma_cqt, chroma_cen
 Here, I have applied the best model accuracy to this data which is the Decision tree model which has the best accuracy 58%. [MusicData_DecisionTree.ipynb](https://github.com/Nourhan-Adell/Data_Science_Projects/blob/main/6.%20MusicData_DecisionTree.ipynb)
 
 And finally I have prepared the .pkl file to be ready for deployment.
+### 6. Deployment of the model:
+We have deployed the model by using flask, where the webpage asks the user to write song's link and then predict if it will be popular one or not.

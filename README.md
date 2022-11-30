@@ -25,4 +25,5 @@ And finally I have prepared the .pkl file to be ready for deployment.
 ### 6. Deployment of the model:
 We have deployed the model by using flask, where the webpage asks the user to write song's link and then predict if it will be popular one or not.
 
+[Surface Gradient](https://blogs.unity3d.com/2019/11/20/normal-map-compositing-using-the-surface-gradient-framework-in-shader-graph/) powered normal map operations.
 ![](Demo.mp4)

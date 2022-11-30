@@ -4,9 +4,6 @@
 ## About
 This project aims to predict if a certain song will hit(get popular) or not, and thus will be depending on the features extracted from audio songs.
 
-You can open a Mixture graph just by double clicking any texture field in the inspector with a Mixture assigned to it.
-![](docs/docfx/images/MixtureOpen.gif)
-
 ## Project details
 ### 1. Extract the popular and unpopular songs from billboard websit:
 Here, I have tried for the first time to make a web scraping, where I have extracted the hot 100 songs and saving them into a csv file. [BillBoard_web_scraping.ipynb](https://github.com/Nourhan-Adell/Data_Science_Projects/blob/main/BillBoard_web_scraping.ipynb)
@@ -27,3 +24,5 @@ Here, I have applied the best model accuracy to this data which is the Decision 
 And finally I have prepared the .pkl file to be ready for deployment.
 ### 6. Deployment of the model:
 We have deployed the model by using flask, where the webpage asks the user to write song's link and then predict if it will be popular one or not.
+
+![](Demo.mp4)
